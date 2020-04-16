@@ -1,0 +1,251 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header{
+  height:30px;
+  width:100%;
+  background-color:rgba(34,49,52,0.8);
+  position:fixed;
+  z-index: 10;
+}
+
+.header-country li{
+  float:left;
+  padding:5px 20px;
+  color:white;
+}
+
+.detail{
+  margin-left:130px;
+}
+
+
+.top{
+  background-image:url(toronto-tower.jpg);
+  color:white;
+  height:500px;
+  background-size:cover;
+}
+
+.top-container{
+  opacity:0.8;
+}
+.top-container h1{
+  padding-top:200px;
+  padding-left:250px;
+}
+
+.top-container p{
+  padding-left:200px;
+}
+
+.top-message{
+  width:1200px;
+  margin-left:400px;
+  padding-top:50px;
+  letter-spacing:5px;
+  line-height:30px;
+}
+
+.contents{
+  background-color:#f7f7f7;
+  height:1400px;
+}
+
+
+
+.country-name{
+  padding:50px 0 10px 100px;
+}
+
+.country-name h1{
+  float:left;
+}
+
+.country-name img{
+  width:60px;
+  height:auto;
+  margin-top:8px;
+  margin-right:20px;
+}
+
+
+.recommendation{
+  float:left;
+  width:33%;
+}
+
+.image{
+  margin-top:10px;
+  width:350px;
+  height:auto;
+  display:inline-block;
+}
+
+.pull{
+  margin-top:10px;
+  width:320px;
+  height:auto;
+  display:inline-block;
+}
+
+.bay{
+  margin-top:10px;
+  width:395px;
+  height:auto;
+  display:inline-block;
+}
+
+.guam-nightmarket{
+  margin-top:10px;
+  width:375px;
+  height:auto;
+  display:inline-block;
+}
+
+.cn{
+  margin-top:10px;
+  width:390px;
+  height:auto;
+  display:inline-block;
+}
+
+.naiagara{
+  margin-top:10px;
+  width:310px;
+  height:auto;
+  display:inline-block;
+}
+
+.timessquare{
+  margin-top:10px;
+  width:395px;
+  height:auto;
+  display:inline-block;
+}
+
+.thailand-beach{
+  margin-top:10px;
+  width:335px;
+  height:auto;
+  display:inline-block;
+}
+
+
+.recommendations{
+  margin:0 auto;
+  background-color:#ccFFFF;
+  width:1400px;
+  height:570px;
+  text-align:center;
+}
+
+.recommend-contents{
+  width:65%;
+  font-size:15px;
+  display:inline-block;
+  color:#666666;
+  padding-top:5px;
+}
+.merit{
+  float:left;
+  margin-left:100px;
+  margin-top:15px;
+  padding:5px 20px;
+  border:2px solid red;
+  background-color:#FFCCCC;
+}
+
+.merit p{
+  padding-bottom:6px
+}
+.demerit p{
+  padding-bottom:6px;
+}
+
+.demerit{
+  float:right;
+  padding:5px 20px;
+  margin-right:100px;
+  margin-top:15px;
+  border:2px solid blue;
+  background-color:#CC99FF;
+
+}
+
+.merit-title h1{
+  font-weight:normal;
+  font-size:20px;
+  padding:10px 20px;
+}
+.demerit-title h1{
+  font-weight:normal;
+  font-size:20px;
+  padding:10px 20px;
+}
+
+.btn{
+  margin-left:130px;
+}
+
+.footer{
+  background-image:url(footer.jpg);
+  color:white;
+  height:250px;
+  background-size:cover;
+}
+.footer-container{
+  opacity:0.8;
+}
+.footer-container h1{
+  padding-top:150px;
+  padding-left:250px;
+}
+
+.footer-container p{
+  padding-left:200px;
+}
+
+.footer2{
+  height:30px;
+  width:100%;
+  background-color:rgba(34,49,52,0.8);
+  z-index: 9;
+}
+
+.footer2-country li{
+  float:left;
+  padding:5px 20px;
+  color:white;
+}
+
+.message{
+  background-color:#EEFFFF;
+  width:1200px;
+  margin: 0 auto;
+  margin-top:60px;
+  margin-bottom:60px;
+  padding:35px;
+  letter-spacing:5px;
+  line-height:30px;
+}
+
+.message1 a{
+  color:blue;
+}
