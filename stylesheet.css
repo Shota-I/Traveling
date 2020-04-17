@@ -4,7 +4,11 @@ h1, h2, h3, h4, h5, h6, p, div {
   margin: 0;
   padding: 0;
 }
-
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    _::-webkit-full-page-media, _:future, :root body {
+        background-color: #eee;
+    }
+}
 body {
   font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
 
