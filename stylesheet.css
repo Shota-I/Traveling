@@ -7,6 +7,7 @@ h1, h2, h3, h4, h5, h6, p, div {
 
 body {
   font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+
 }
 
 li {
@@ -24,7 +25,7 @@ a {
 
 .header{
   height:30px;
-  width:1540px;
+  width:100%;
   background-color:rgba(34,49,52,0.8);
   position:fixed;
   z-index: 10;
@@ -62,7 +63,7 @@ a {
 
 .top-message{
   width:1200px;
-  margin-left:400px;
+  margin-left:200px;
   padding-top:50px;
   letter-spacing:5px;
   line-height:30px;
@@ -98,66 +99,18 @@ a {
 
 .image{
   margin-top:10px;
-  width:350px;
-  height:auto;
+  width:auto;
+  height:250px;
   display:inline-block;
 }
 
-.pull{
-  margin-top:10px;
-  width:320px;
-  height:auto;
-  display:inline-block;
-}
-
-.bay{
-  margin-top:10px;
-  width:395px;
-  height:auto;
-  display:inline-block;
-}
-
-.guam-nightmarket{
-  margin-top:10px;
-  width:375px;
-  height:auto;
-  display:inline-block;
-}
-
-.cn{
-  margin-top:10px;
-  width:390px;
-  height:auto;
-  display:inline-block;
-}
-
-.naiagara{
-  margin-top:10px;
-  width:310px;
-  height:auto;
-  display:inline-block;
-}
-
-.timessquare{
-  margin-top:10px;
-  width:395px;
-  height:auto;
-  display:inline-block;
-}
-
-.thailand-beach{
-  margin-top:10px;
-  width:335px;
-  height:auto;
-  display:inline-block;
-}
 
 
 .recommendations{
-  margin:0 auto;
+
   background-color:#ccFFFF;
-  width:1400px;
-  height:570px;
+  width:100%;
+  height:600px;
   text-align:center;
 }
 
@@ -168,13 +121,16 @@ a {
   color:#666666;
   padding-top:5px;
 }
-.merit{
+
+.merit-demerit{
   float:left;
-  margin-left:100px;
-  margin-top:15px;
-  padding:5px 20px;
+  width:50%;
+}
+
+.merit{
   border:2px solid red;
   background-color:#FFCCCC;
+  margin:20px;
 }
 
 .merit p{
@@ -185,13 +141,9 @@ a {
 }
 
 .demerit{
-  float:right;
-  padding:5px 20px;
-  margin-right:100px;
-  margin-top:15px;
   border:2px solid blue;
   background-color:#CC99FF;
-
+  margin:20px;
 }
 
 .merit-title h1{
@@ -242,7 +194,7 @@ a {
 
 .message{
   background-color:#EEFFFF;
-  width:1200px;
+  width:80%;
   margin: 0 auto;
   margin-top:60px;
   margin-bottom:60px;
