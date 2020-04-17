@@ -63,7 +63,7 @@ a {
 
 .top-message{
   width:1200px;
-  margin-left:0px;
+  margin-left:100px;
   padding-top:50px;
   letter-spacing:5px;
   line-height:30px;
@@ -98,6 +98,11 @@ a {
   width:33%;
 }
 
+.recommendation1{
+  float:left;
+  width:33%;
+  margin-top:25px;
+}
 .image{
   margin-top:10px;
   width:auto;
